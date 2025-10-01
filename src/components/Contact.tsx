@@ -67,7 +67,7 @@ const Contact = () => {
                       {info.link ? (
                         <a
                           href={info.link}
-                          className="text-foreground font-medium hover:text-primary transition-colors break-words"
+                          className="text-foreground font-medium hover:text-primary transition-colors break-all"
                         >
                           {info.value}
                         </a>
