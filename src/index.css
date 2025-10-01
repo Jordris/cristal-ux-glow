@@ -123,3 +123,9 @@ All colors MUST be HSL.
     @apply bg-background text-foreground;
   }
 }
+
+@media (max-width: 768px) {
+  #hero .absolute.inset-0.z-0 img {
+    object-position: 25% 15% !important;
+  }
+}
