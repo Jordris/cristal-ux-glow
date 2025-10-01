@@ -30,13 +30,13 @@ const Navbar = () => {
           : "bg-transparent"
       }`}
     >
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex-shrink-0">
             <button
               onClick={() => scrollToSection("hero")}
-              className="font-display text-2xl font-bold text-primary hover:text-primary/80 transition-colors"
+              className="font-display text-xl sm:text-2xl font-bold text-primary hover:text-primary/80 transition-colors"
             >
               Cristina Soraia
             </button>

@@ -7,19 +7,19 @@ const Contact = () => {
     {
       icon: Phone,
       label: "Telefone",
-      value: "(11) 98765-4321",
-      link: "tel:+5511987654321",
+      value: "(12) 98113-2000",
+      link: "tel:+5512981132000",
     },
     {
       icon: Mail,
       label: "Email",
-      value: "contato@cristinasoraia.com.br",
-      link: "mailto:contato@cristinasoraia.com.br",
+      value: "atendimento@cristinasoraia.com.br",
+      link: "mailto:atendimento@cristinasoraia.com.br",
     },
     {
       icon: MapPin,
       label: "Endereço",
-      value: "São Paulo, SP",
+      value: "Rua Jurema Vieira Medrado, 88. Jardim Aquárius, São José dos Campos / SP",
       link: null,
     },
     {
@@ -96,8 +96,8 @@ const Contact = () => {
               </p>
               <Button
                 size="lg"
-                className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold text-lg px-8 py-6 shadow-lg"
-                onClick={() => window.open("https://wa.me/5511987654321", "_blank")}
+                className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold text-lg px-8 py-6 shadow-lg w-full sm:w-auto"
+                onClick={() => window.open("https://wa.me/5512982669661?text=Olá%20vim%20pelo%20site%20e%20quero%20agendar%20um%20consulta.", "_blank")}
               >
                 Agendar Consulta via WhatsApp
               </Button>

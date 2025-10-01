@@ -40,7 +40,7 @@ const Specialties = () => {
             <Badge
               key={index}
               variant="secondary"
-              className="px-6 py-3 text-base font-medium bg-card hover:bg-primary/10 hover:text-primary transition-all cursor-default shadow-soft"
+              className="px-5 py-2.5 text-sm sm:text-base font-medium bg-primary/10 text-primary border border-primary/20 transition-all cursor-default shadow-soft"
             >
               {specialty}
             </Badge>

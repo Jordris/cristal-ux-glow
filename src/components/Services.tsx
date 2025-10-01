@@ -7,25 +7,25 @@ const Services = () => {
       icon: Brain,
       title: "Terapia Individual",
       description:
-        "Atendimento personalizado focado em suas necessidades específicas, objetivos e desafios pessoais.",
+        "Sessões personalizadas que respeitam seu ritmo e suas necessidades. Juntos, vamos trabalhar questões como ansiedade, depressão, autoestima e desenvolvimento pessoal, sempre com acolhimento e estratégias baseadas em evidências científicas.",
     },
     {
       icon: Users,
       title: "Terapia de Casal",
       description:
-        "Apoio para fortalecer relacionamentos, melhorar a comunicação e resolver conflitos de forma saudável.",
+        "Um espaço seguro para fortalecer vínculos, melhorar a comunicação e resolver conflitos. Ajudo casais a reconstruírem conexão emocional e encontrarem formas mais saudáveis de se relacionar.",
     },
     {
       icon: TrendingUp,
-      title: "Desenvolvimento Profissional",
+      title: "Orientação Profissional",
       description:
-        "Orientação para alcançar suas metas profissionais, lidar com estresse no trabalho e crescimento de carreira.",
+        "Descubra seus talentos, clarifique seus objetivos de carreira e desenvolva estratégias para alcançar realização profissional. Ideal para quem busca recolocação, transição de carreira ou crescimento na área atual.",
     },
     {
       icon: Heart,
-      title: "Saúde Emocional",
+      title: "Avaliação Psicológica",
       description:
-        "Tratamento para ansiedade, depressão, estresse e outros desafios emocionais com técnicas baseadas em evidências.",
+        "Processo sistemático e técnico que utiliza testes psicológicos para compreender aspectos cognitivos, emocionais e comportamentais. Útil para diagnósticos, processos seletivos e autoconhecimento aprofundado.",
     },
   ];
 

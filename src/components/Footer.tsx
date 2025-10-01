@@ -61,22 +61,22 @@ const Footer = () => {
           {/* Contact Info */}
           <div>
             <h4 className="font-semibold text-lg mb-4">Contato</h4>
-            <ul className="space-y-2 text-primary-foreground/80">
-              <li>São Paulo, SP</li>
+            <ul className="space-y-2 text-primary-foreground/80 text-sm sm:text-base">
+              <li>Rua Jurema Vieira Medrado, 88<br/>Jardim Aquárius<br/>São José dos Campos / SP</li>
               <li>
                 <a
-                  href="tel:+5511987654321"
+                  href="tel:+5512981132000"
                   className="hover:text-primary-foreground transition-colors"
                 >
-                  (11) 98765-4321
+                  (12) 98113-2000
                 </a>
               </li>
               <li>
                 <a
-                  href="mailto:contato@cristinasoraia.com.br"
-                  className="hover:text-primary-foreground transition-colors"
+                  href="mailto:atendimento@cristinasoraia.com.br"
+                  className="hover:text-primary-foreground transition-colors break-all"
                 >
-                  contato@cristinasoraia.com.br
+                  atendimento@cristinasoraia.com.br
                 </a>
               </li>
             </ul>
