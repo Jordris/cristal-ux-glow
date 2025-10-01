@@ -86,9 +86,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-primary-foreground/20 text-center">
           <p className="text-primary-foreground/80 flex items-center justify-center gap-2">
-            © {currentYear} Cristina Soraia. Feito com{" "}
-            <Heart className="h-4 w-4 text-accent fill-accent" /> para ajudar
-            pessoas.
+            © {currentYear} Cristina Soraia. 
           </p>
         </div>
       </div>
