@@ -126,6 +126,6 @@ All colors MUST be HSL.
 
 @media (max-width: 768px) {
   #hero .absolute.inset-0.z-0 img {
-    object-position: 10% 15% !important;
+    object-position: 70% 15% !important;
   }
 }
