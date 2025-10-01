@@ -53,7 +53,7 @@ const Contact = () => {
             {contactInfo.map((info, index) => (
               <Card
                 key={index}
-                className="group hover:shadow-card transition-all duration-300 border-border/50"
+                className="group hover:shadow-card transition-all duration-300 border-border/50 overflow-hidden"
               >
                 <CardContent className="p-6">
                   <div className="flex items-start gap-4">
@@ -67,7 +67,7 @@ const Contact = () => {
                       {info.link ? (
                         <a
                           href={info.link}
-                          className="text-foreground font-medium hover:text-primary transition-colors"
+                          className="text-foreground font-medium hover:text-primary transition-colors break-words"
                         >
                           {info.value}
                         </a>
