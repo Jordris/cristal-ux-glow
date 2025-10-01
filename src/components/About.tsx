@@ -14,7 +14,7 @@ const About = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Image */}
-          <div className="relative animate-fade-in">
+          <div className="relative overflow-hidden animate-fade-in">
             <div className="aspect-square rounded-2xl overflow-hidden shadow-card">
               <img
                 src={profileImg}
@@ -22,8 +22,8 @@ const About = () => {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-accent/10 rounded-2xl -z-10" />
-            <div className="absolute -top-6 -left-6 w-32 h-32 bg-primary/10 rounded-full -z-10" />
+            <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-accent/10 rounded-2xl -z-10 hidden sm:block" />
+            <div className="absolute -top-6 -left-6 w-32 h-32 bg-primary/10 rounded-full -z-10 hidden sm:block" />    
           </div>
 
           {/* Content */}
@@ -37,16 +37,20 @@ const About = () => {
             </h2>
             
             <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-              Sou psicóloga especializada em Terapia Cognitivo-Comportamental,
-              com anos de experiência ajudando pessoas a desenvolverem todo o
-              seu potencial emocional e profissional.
+              Sou carioca, casada e mãe de uma menina e um menino que me ensinam muito 
+              e me desafiam a me tornar uma pessoa melhor a cada dia. 
+              A curiosidade e vontade de aprender é uma constante na minha vida. 
+              Com regularidade participo dos congressos relacionados às linhas de atendimento que 
+              trabalho e busco novas formações. Atualmente estou realizando uma formação 
+              que me capacita para o atendimento de casais.
             </p>
             
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              Minha abordagem é baseada em evidências científicas, mas sempre
-              com um olhar humanizado e acolhedor. Acredito que cada pessoa tem
-              recursos internos poderosos que, quando bem direcionados, podem
-              transformar completamente sua qualidade de vida.
+              Sou amante da natureza, me sinto plena em contato com o mar, 
+              com o verde e explorar lugares novos. Amo fazer trilhas, viajar, 
+              fotografar, aprender idiomas. 
+              Moro em São José dos Campos/SP e gosto de me dizer aberta a pacientes brasileiros 
+              em qualquer lugar do Brasil e do mundo.
             </p>
 
             {/* Highlights */}
