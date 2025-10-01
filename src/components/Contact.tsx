@@ -8,7 +8,7 @@ const Contact = () => {
       icon: Phone,
       label: "Telefone",
       value: "(12) 98113-2000",
-      link: "tel:+5512981132000",
+      link: "https://wa.me/5512981132000?text=Olá%20vim%20pelo%20site%20e%20quero%20agendar%20um%20consulta.",
     },
     {
       icon: Mail,
@@ -20,7 +20,7 @@ const Contact = () => {
       icon: MapPin,
       label: "Endereço",
       value: "Rua Jurema Vieira Medrado, 88. Jardim Aquárius, São José dos Campos / SP",
-      link: null,
+      link: "https://maps.app.goo.gl/WuGubbUR96qCko8k8",
     },
     {
       icon: Clock,
@@ -97,7 +97,7 @@ const Contact = () => {
               <Button
                 size="lg"
                 className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold text-lg px-4 py-6 shadow-lg w-full sm:w-auto text-center whitespace-normal min-h-[80px] sm:min-h-0 sm:whitespace-nowrap"
-                onClick={() => window.open("https://wa.me/5512982669661?text=Olá%20vim%20pelo%20site%20e%20quero%20agendar%20um%20consulta.", "_blank")}
+                onClick={() => window.open("https://wa.me/5512981132000?text=Olá%20vim%20pelo%20site%20e%20quero%20agendar%20um%20consulta.", "_blank")}
               >
                 Agendar Consulta via WhatsApp
               </Button>

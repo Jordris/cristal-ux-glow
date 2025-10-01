@@ -1,31 +1,31 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Users, Heart, TrendingUp, Brain } from "lucide-react";
+import { User, Users, Megaphone, MonitorPlay } from "lucide-react";
 
 const Services = () => {
   const services = [
     {
-      icon: Brain,
-      title: "Terapia Individual",
+      icon: MonitorPlay,
+      title: "Terapia Individual Online",
       description:
-        "Sessões personalizadas que respeitam seu ritmo e suas necessidades. Juntos, vamos trabalhar questões como ansiedade, depressão, autoestima e desenvolvimento pessoal, sempre com acolhimento e estratégias baseadas em evidências científicas.",
+        "Em qualquer lugar do mundo você pode contratar processo terapêutico online, de forma confidencial, dentro dos padrões regulamentados pelo CFP para lidar com seus desafios e questões emocionais.",
+    },
+    {
+      icon: User,
+      title: "Terapia individual em consultório",
+      description:
+        "Em São José dos Campos você pode escolher realizar seu tratamento psicológico em consultório aconchegante, com psicóloga especializada, para lidar com seus pensamentos e crenças",
     },
     {
       icon: Users,
-      title: "Terapia de Casal",
+      title: "Grupos Terapêuticos",
       description:
-        "Um espaço seguro para fortalecer vínculos, melhorar a comunicação e resolver conflitos. Ajudo casais a reconstruírem conexão emocional e encontrarem formas mais saudáveis de se relacionar.",
+        "Programas de curta duração em grupo, de cunho psicoeducativo e terapêutico, com objetivo de apoiar os participantes em sua regulação emocional, relacionamento, comunicação, foco e realização. Consulte a temática dos grupos disponíveis.",
     },
     {
-      icon: TrendingUp,
-      title: "Orientação Profissional",
+      icon: Megaphone,
+      title: "Palestras",
       description:
-        "Descubra seus talentos, clarifique seus objetivos de carreira e desenvolva estratégias para alcançar realização profissional. Ideal para quem busca recolocação, transição de carreira ou crescimento na área atual.",
-    },
-    {
-      icon: Heart,
-      title: "Avaliação Psicológica",
-      description:
-        "Processo sistemático e técnico que utiliza testes psicológicos para compreender aspectos cognitivos, emocionais e comportamentais. Útil para diagnósticos, processos seletivos e autoconhecimento aprofundado.",
+        "As palestras são oferecidas com programação aberta e em empresas para público restrito. Os temas são relacionados a saúde mental, regulação emocional, carreira, liderança e afins.",
     },
   ];
 

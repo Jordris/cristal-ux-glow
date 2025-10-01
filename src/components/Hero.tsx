@@ -51,7 +51,7 @@ const Hero = () => {
 
           {/* CTA Button */}
           <Button
-            onClick={() => window.open("https://wa.me/5512982669661?text=Olá%20vim%20pelo%20site%20e%20quero%20agendar%20um%20consulta.", "_blank")}
+            onClick={() => window.open("https://wa.me/5512981132000?text=Olá%20vim%20pelo%20site%20e%20quero%20agendar%20um%20consulta.", "_blank")}
             size="lg"
             className="bg-accent hover:bg-accent/90 text-accent-foreground font-semibold text-lg px-8 py-6 shadow-lg hover:shadow-xl transition-all w-full sm:w-auto"
           >
